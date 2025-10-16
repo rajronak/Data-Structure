@@ -79,6 +79,7 @@ class KQueue{
 int main(){
     KQueue q(3,8);
     q.enqueue(10, 1);
+    
     q.enqueue(15,1);
     q.enqueue(20, 2);
     q.enqueue(25,1);
